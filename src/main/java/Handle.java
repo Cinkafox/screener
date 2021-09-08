@@ -1,5 +1,4 @@
 import javax.imageio.ImageIO;
-import javax.print.attribute.standard.MediaSize;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -7,7 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
-import java.net.SocketException;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
