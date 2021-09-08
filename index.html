@@ -1,0 +1,19 @@
+<img id="img" src="i">
+<style>
+    img{
+    width:100%;
+    }
+</style>
+<script>
+    var pic = document.getElementById('img');
+    pic.src = "ss";
+
+    function myLoop() {
+  setTimeout(function() {
+    pic.src = Math.random();
+      myLoop();
+  }, 500)
+}
+
+myLoop();
+</script>
